@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-    width: 50%;
+    max-width: 350px;
     margin: auto;
     border: 5px solid black;
     padding-bottom: 50px;
@@ -11,6 +11,9 @@ body {
     background-image: radial-gradient(white, grey);
 }
 
+@media screen and (min-width: 400px) {
+    .container {width: 100%;}
+}
 .startbild {
     content:url("cointoss.png");
 }
