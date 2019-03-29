@@ -38,7 +38,7 @@ knapp.addEventListener("click", function() {
 
 function reset (){
         gameOver = false;
-        knapp.textContent = "TRYCK PÅ MIG FÖR ATT SINGLA SLANT!"
+        knapp.textContent = "SINGLA SLANT!"
         resultat.textContent = "Krona eller klave?"
         bild.classname = ""
         bild.classList = "startbild"
